@@ -1,39 +1,3 @@
-# from PyQt6 import QtCore, QtWidgets, QtGui
-# import sys
-# import psutil   
-
-# class MainWindow(QtWidgets.QMainWindow):
-#     def __init__(self):
-#         super().__init__()
-
-#         self._init_ui()   
-
-#     def _init_ui(self):
-#         self.setWindowTitle("psutil Example")    
-#         self.setGeometry(100, 100, 400, 300)
-
-#         self.setWindowIcon(QtGui.QIcon("VNT-logo.png"))
-
-#         self.setStyleSheet("""
-#             background-color: #f0f0f0;
-#             font-family: Arial;
-#             font-size: 14px;
-#         """)
-
-#         label = QtWidgets.QLabel("Hello, World!", self)
-#         label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-
-#         self.setCentralWidget(label)
-
-# app = QtWidgets.QApplication(sys.argv)
-# window = MainWindow()
-# window.show()
-# sys.exit(app.exec())
-
-
-
-
-
 
 from PyQt6 import QtCore, QtWidgets, QtGui
 import sys
