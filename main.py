@@ -44,7 +44,7 @@ class MainWindow(QtWidgets.QMainWindow):
         central_widget.setLayout(layout)
         self.setCentralWidget(central_widget)
 
-       
+
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.update_data)
         self.timer.start(1000)
